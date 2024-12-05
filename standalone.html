@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Turf Toe Infographic</title>
+</head>
+
+<body>
+  <style>
+	/* styles.css */
+	body {
+	font-family: 'Lato', sans-serif;
+	background: #e3f2fd; /* Light blue background */
+	margin: 0;
+	padding: 0;
+	color: #333;
+	}
+	
+	.infographic {
+	max-width: 900px;
+	margin: 20px auto;
+	padding: 20px;
+	background: #ffffff;
+	border-radius: 15px;
+	box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+	border: 2px solid #90caf9; /* Light blue border */
+	}
+	
+	.header {
+	text-align: center;
+	background: linear-gradient(90deg, #42a5f5, #66bb6a); /* Gradient blue-green */
+	color: white;
+	padding: 30px 20px;
+	border-radius: 12px;
+	border: 2px solid #1e88e5; /* Deep blue border */
+	box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.1);
+	}
+	
+	.main-title {
+	font-size: 2.8rem;
+	margin: 0;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+	}
+	
+	.tagline {
+	font-size: 1.2rem;
+	margin-top: 10px;
+	font-style: italic;
+	}
+	
+	.section {
+	margin: 40px 0;
+	overflow: hidden;
+	background: #f9fbe7; /* Light green background */
+	padding: 20px;
+	border-radius: 10px;
+	border: 2px solid #c5e1a5; /* Light green border */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	}
+	
+	.section img {
+	width: 40%;
+	height: auto;
+	border-radius: 10px;
+	border: 2px solid #a5d6a7; /* Softer green border for images */
+	box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+	top: 50%;
+	position: relative;
+	}
+	
+	.section-content {
+	width: 50%;
+	padding: 10px 20px;
+	display: inline-block;
+	vertical-align: top;
+	background: #ffffff; /* White for better text contrast */
+	border-radius: 10px;
+	border: 2px solid #c8e6c9; /* Soft border to define text area */
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	}
+	
+	.left-image {
+	float: left;
+	margin-right: 20px;
+	}
+	
+	.top-image {
+	float: top;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	min-width: 60%;
+	transform: translate(30%);
+	}
+	
+	.bottom-image {
+	float: bottom;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 100%;
+	min-width: 60%;
+	transform: translate(30%);
+	}
+	
+	.right-image {
+	float: right;
+	margin-left: 20px;
+	}
+	
+	h2 {
+	font-size: 1.8rem;
+	color: #388e3c;
+	margin-bottom: 10px;
+	border-bottom: 3px solid #66bb6a; /* Green underline */
+	display: inline-block;
+	padding-bottom: 5px;
+	}
+	
+	ul {
+	list-style-type: disc;
+	padding-left: 20px;
+	}
+	
+	li {
+	margin: 10px 0;
+	font-size: 1rem;
+	}
+	
+	.footer {
+	text-align: center;
+	font-size: 0.9rem;
+	color: #555;
+	margin-top: 30px;
+	background: #eceff1; /* Soft gray background */
+	padding: 15px;
+	border-radius: 10px;
+	border: 2px solid #90a4ae; /* Gray border */
+	box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.1);
+	}
+	
+	/* Add hover effect to images */
+	.section img:hover {
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+	}
+	
+	/* Add hover effect to section content */
+	.section-content:hover {
+	background: #f1f8e9; /* Slightly brighter green when hovered */
+	transition: background 0.3s ease, box-shadow 0.3s ease;
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+	}
+	
+	#centerThis, #centerThisToo {
+	transform: translate(0, 12%);
+	}
+	
+	.makeWide {
+	width: 100%;
+	}
+    </style>
+	<div class="infographic">
+		<header class="header">
+			<h1 class="main-title">TURF TOE</h1>
+			<p class="tagline">The Athlete’s Common Enemy</p>
+		</header>
+
+		<section class="section" id="what-is">
+			<img src="https://my.clevelandclinic.org/-/scassets/images/org/health/articles/turf-toe.jpg" style="max-height: 260px;" alt="Illustration of big toe joint anatomy" class="image left-image">
+			<div class="section-content">
+				<h2>What Is Turf Toe?</h2>
+				<p>Turf Toe happens when the big toe bends too far upward, like when you're running, jumping, or even tripping
+					wrong. It’s basically a sprain of the ligaments that hold the big toe joint together. Athletes who play on
+					hard surfaces like artificial turf are the most likely to get it, which is why it's called "Turf Toe."
+					Overstretching the joint can hurt the soft tissue under the toe, making it painful to move or even walk.</p>
+			</div>
+		</section>
+		
+		<section class="section" id="symptoms">
+			<div class="section-content">
+				<h2>Symptoms</h2>
+				<p>How do you know if you’ve got Turf Toe? Look for these signs:</p>
+				<ul>
+					<li><b>Pain:</b> It hurts to move your toe, especially if you try to push off it when running or walking.
+					</li>
+					<li><b>Swelling:</b> The joint might puff up and feel tender to touch.</li>
+					<li><b>Bruising:</b> Your toe might turn purple or red from damaged blood vessels under the skin.</li>
+					<li><b>Stiffness:</b> You’ll notice your toe feels stuck and doesn’t want to bend properly.</li>
+					<li><b>Weakness:</b> It might feel like you can’t push off your toe as strongly as before.</li>
+				</ul>
+			</div>
+			<img src="https://cellaxys.com/wp-content/uploads/2019/10/How-to-Minimize-Turf-Toe-Recovery-Time-1.jpeg" style="max-height:420px;transform:translate(0, 20%);" alt="Symptoms of Turf Toe illustration" class="image right-image">
+		</section>
+		
+			<section class="section" id="causes">
+				<img src="https://playsafeusa.org/wp-content/uploads/2022/03/f34d76_ab3ea0ff841d493e8a643f4f39ee686emv2.png" style="max-height:420px;" alt="Common causes of Turf Toe illustration" class="image top-image">
+				<br>
+        <div class="section-content" class="makeWide" style="width:95%;">
+					<h2>Common Causes</h2>
+					<p>Most cases of Turf Toe come from sports or physical activities where your foot has to grip hard or stop
+						abruptly. Here are the usual culprits:</p>
+					<ul>
+						<li><b>Running:</b> Sprinting, especially on hard or slippery surfaces, puts a ton of pressure on the
+							big toe joint.</li>
+						<li><b>Jumping:</b> Landing the wrong way or repeatedly pushing off can overstretch the joint.</li>
+						<li><b>Sudden Stops:</b> Quick movements, like dodging an opponent, can jam your toe unexpectedly.</li>
+						<li><b>Poor Shoes:</b> Flexible shoes without good toe support make it easy for the joint to bend too
+							much.</li>
+						<li><b>Turf Fields:</b> Artificial turf doesn’t absorb impact like grass, making injuries more likely.
+						</li>
+					</ul>
+				</div>
+			</section>
+		
+			<section class="section" id="treatment">
+				<div class="section-content" style="width:95%;">
+					<h2>How to Treat It</h2>
+					<p>Getting back on your feet after Turf Toe takes time, but here’s what you can do:</p>
+					<ul>
+						<li><b>Rest:</b> Stop all the running, jumping, and anything that puts weight on your toe. Give it time
+							to heal.</li>
+						<li><b>Ice:</b> Wrap an ice pack in a towel and hold it on the area for about 15–20 minutes a few times
+							a day
+							to bring down swelling.</li>
+						<li><b>Compression:</b> Use an elastic bandage to wrap the toe snugly (but not too tight) for extra
+							stability.</li>
+						<li><b>Elevation:</b> Prop your foot up on pillows when you sit or lie down to reduce swelling.</li>
+						<li><b>Supportive Shoes:</b> Stiff-soled shoes or adding special insoles can help stabilize the joint
+							while it
+							heals.</li>
+						<li><b>Physical Therapy:</b> If it’s really bad, a doctor might suggest exercises to regain strength and
+							motion
+							in your toe.</li>
+					</ul>
+				</div>
+        <br>
+				<img src="https://www.naplespodiatrist.com/wp-content/uploads/2023/04/RICE.jpg.1.2x.generic.jpg" style="max-height:420px;" alt="Turf Toe treatment methods illustration" class="image bottom-image">
+		</section>
+
+				<footer class="footer">
+					<p>Prepared by: Dylan Fletcher | Athletic Training Infographic</p>
+          <br>
+		<a href="https://my.clevelandclinic.org/health/diseases/17590-turf-toe">Cleveland Clinic</a>
+		<a href="https://www.hopkinsmedicine.org/health/conditions-and-diseases/turf-toe">Johns Hopkins Medicine</a>
+		<a href="https://orthoinfo.aaos.org/en/diseases--conditions/turf-toe">American Academy of Orthopaedic Surgeons</a>
+		<a href="https://www.footcaremd.org/conditions-treatments/toes/turf-toe">FootCareMD</a>
+		<a href="https://www.massgeneralbrigham.org/en/patient-care/services-and-specialties/sports-medicine/conditions/foot-ankle/turf-toe">Mass General Brigham</a>
+				</footer>
+	</div>
+</body>
+
+</html>
