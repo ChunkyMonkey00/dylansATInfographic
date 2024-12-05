@@ -1,0 +1,151 @@
+/* styles.css */
+body {
+    font-family: 'Lato', sans-serif;
+    background: #e3f2fd; /* Light blue background */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.infographic {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    border: 2px solid #90caf9; /* Light blue border */
+}
+
+.header {
+    text-align: center;
+    background: linear-gradient(90deg, #42a5f5, #66bb6a); /* Gradient blue-green */
+    color: white;
+    padding: 30px 20px;
+    border-radius: 12px;
+    border: 2px solid #1e88e5; /* Deep blue border */
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main-title {
+    font-size: 2.8rem;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.tagline {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.section {
+    margin: 40px 0;
+    overflow: hidden;
+    background: #f9fbe7; /* Light green background */
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #c5e1a5; /* Light green border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section img {
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid #a5d6a7; /* Softer green border for images */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    top: 50%;
+    position: relative;
+}
+
+.section-content {
+    width: 50%;
+    padding: 10px 20px;
+    display: inline-block;
+    vertical-align: top;
+    background: #ffffff; /* White for better text contrast */
+    border-radius: 10px;
+    border: 2px solid #c8e6c9; /* Soft border to define text area */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.left-image {
+    float: left;
+    margin-right: 20px;
+}
+
+.top-image {
+  float: top;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  min-width: 60%;
+  transform: translate(30%);
+}
+
+.bottom-image {
+  float: bottom;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+  min-width: 60%;
+  transform: translate(30%);
+}
+
+.right-image {
+    float: right;
+    margin-left: 20px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #388e3c;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #66bb6a; /* Green underline */
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 30px;
+    background: #eceff1; /* Soft gray background */
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #90a4ae; /* Gray border */
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Add hover effect to images */
+.section img:hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Add hover effect to section content */
+.section-content:hover {
+    background: #f1f8e9; /* Slightly brighter green when hovered */
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#centerThis, #centerThisToo {
+  transform: translate(0, 12%);
+}
+
+.makeWide {
+  width: 100%;
+}
